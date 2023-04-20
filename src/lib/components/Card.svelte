@@ -5,11 +5,11 @@
 </script>
 
 {#each haberler as haber}
-<div class="card w-96 bg-base-100 shadow-xl image-full">
+<div class="card w-80 md:w-96 bg-base-100 shadow-xl image-full">
   <figure><Image src="{haber.img}" title="{haber.id}"/></figure>
   <div class="card-body">
     <h2 class="card-title">{haber.title}</h2>
-    <p>{haber.desc}</p>
+    <p class="">{haber.desc}</p>
     <div class="card-actions justify-between">
       <div>
           {#each haber.tipler as tip}
