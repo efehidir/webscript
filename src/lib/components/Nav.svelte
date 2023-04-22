@@ -11,6 +11,10 @@
 
 <div class="navbar bg-base-100">
     <div class="navbar-start">
+      <div class="hidden md:flex flex-row justify-around w-full">
+        <a href="/login" class="btn">Log in</a>
+        <a href="/signin" class="btn">Sign in</a>
+      </div>
       <label for="sidemenu" class="btn btn-ghost btn-circle swap swap-rotate visible md:invisible">
         <input class="hidden" aria-label="toggle-hamburger-menu" type="checkbox" />
         <Icon class="swap-off fill-current" width="32" height="32" icon="mdi:hamburger-menu" />
