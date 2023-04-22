@@ -5,6 +5,7 @@
 
     import { browser } from '$app/environment';
     import { page } from '$app/stores'
+    //test
 
     const theme = browser && localStorage.getItem('theme');
 </script>
