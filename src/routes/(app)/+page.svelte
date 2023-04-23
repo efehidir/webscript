@@ -1,6 +1,6 @@
 <script>
-    import Breadcrumbs from "../lib/components/Breadcrumbs.svelte";
-    import Card from "../lib/components/Card.svelte";
+    import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
+    import Card from "$lib/components/Card.svelte";
     import Image from '$lib/components/Image.svelte'
 
     let items = [
@@ -56,7 +56,7 @@
                     <tr>
                       <th></th>
                       <th>Name</th>
-                      <th>Credit</th>
+                      <th class="text-center">Credit</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -71,7 +71,7 @@
                         </div>
                         Efesso
                       </td>
-                      <td>30</td>
+                      <td class="text-center">30</td>
                     </tr>
                     <!-- row 2 -->
                     <tr>
@@ -84,7 +84,7 @@
                         </div>
                         arian99
                       </td>
-                      <td>20</td>
+                      <td class="text-center">20</td>
                     </tr>
                     <!-- row 3 -->
                     <tr>
@@ -97,19 +97,19 @@
                         </div>
                         LordTenebris
                       </td>
-                      <td>10</td>
+                      <td class="text-center">10</td>
                     </tr>
                   </tbody>
                 </table>
                 <div class="divider"></div> 
-                <div class="btn ">Top Credit Purchasers</div>
+                <div class="btn ">Last Credit Purchasers</div>
                 <table class="table table-zebra w-full my-2">
                     <!-- head -->
                     <thead>
                       <tr>
                         <th></th>
                         <th>Name</th>
-                        <th>Credit</th>
+                        <th class="text-center">Credit</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -124,7 +124,7 @@
                           </div>
                           Efesso
                         </td>
-                        <td>30</td>
+                        <td class="text-center">30</td>
                       </tr>
                       <!-- row 2 -->
                       <tr>
@@ -137,7 +137,7 @@
                           </div>
                           arian99
                         </td>
-                        <td>20</td>
+                        <td class="text-center">20</td>
                       </tr>
                       <!-- row 3 -->
                       <tr>
@@ -150,7 +150,7 @@
                           </div>
                           LordTenebris
                         </td>
-                        <td>10</td>
+                        <td class="text-center">10</td>
                       </tr>
                     </tbody>
                   </table>

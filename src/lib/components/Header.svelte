@@ -5,7 +5,7 @@
   import bgweb from '$lib/assets/bg.webp'
 </script>
 
-<div class="hero h-2/5 hidden md:grid" style="background-image: url({bg});">
+<div class="hero h-60 hidden md:grid" style="background-image: url({bg});">
   <div class="hero-overlay bg-opacity-80"></div>
   <div class="hero-content text-neutral-content">
         <picture>
